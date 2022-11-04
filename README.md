@@ -1,29 +1,36 @@
-# vuewind-layout
+# Frontend Mentor - Poduct Preview Card Component
 
-This template should help get you started developing with Vue 3 + Tailwind in Vite.
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Recommended IDE Setup
+<!-- ## Table of contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Overview -->
 
-## Customize configuration
+![](./src/assets/screenshot-preview.png)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Links
 
-## Project Setup
+- Solution URL: [CODE Repo](https://github.com/GumoDev/qrcodecomponent)
+- Live Site URL: [Live Site Demo](https://gumodev.github.io/qrcodecomponent/)
 
-```sh
-npm install
-```
+### Built with
 
-### Compile and Hot-Reload for Development
+- Semantic HTML5 markup
+- Tailwind utility classes
+- Flexbox
+- Mobile-first workflow
+- [VueJs](https://vuejs.org/) - JS library
+- [Vite](https://vitejs.dev/) - Web Bundler 
+- [Tailwind](https://tailwindcss.com/) - For styles
 
-```sh
-npm run dev
-```
+<!-- ### What I learned
 
-### Compile and Minify for Production
+### Continued development
 
-```sh
-npm run build
-```
+### Useful resources -->
+
+## Author
+
+- Frontend Mentor - [@gumodev](https://www.frontendmentor.io/profile/gumodev)
+
+<!-- ## Acknowledgments -->
