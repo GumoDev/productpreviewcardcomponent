@@ -7,7 +7,7 @@ let message = ref('Happy Coding !!!')
 <template>
   <main class="flex flex-col justify-center items-center bg-[hsl(30,38%,92%)] text-white h-screen">
     
-    <div class="transition card-preview bg-white text-black w-11/12 max-w-[375px] md:w-11/12 md:max-w-[768px] md:h-[528px] rounded-xl overflow-hidden md:flex">
+    <section class="transition card-preview bg-white text-black w-11/12 max-w-[375px] md:w-11/12 md:max-w-[768px] md:h-[528px] rounded-xl overflow-hidden md:flex">
       
       <div class="card-img md:w-1/2">
 
@@ -17,7 +17,7 @@ let message = ref('Happy Coding !!!')
         <div>
           <img class="hidden md:flex w-full " src="../assets/image-product-desktop.jpg" alt="">
         </div>  
-        
+
       </div>
 
       <div class="card-info p-8 md:w-1/2 md:p-10">
@@ -52,12 +52,12 @@ let message = ref('Happy Coding !!!')
         </a>
       </div>
 
-    </div>
+    </section>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/GumoDev/productpreviewcardcomponent">GumoDev</a>.
-    </div>
+    </footer>
   </main>
 </template>
 
