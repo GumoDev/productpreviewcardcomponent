@@ -10,8 +10,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [CODE Repo](https://github.com/GumoDev/qrcodecomponent)
-- Live Site URL: [Live Site Demo](https://gumodev.github.io/qrcodecomponent/)
+- Solution URL: [CODE Repo](https://github.com/GumoDev/productpreviewcardcomponent)
+- Live Site URL: [Live Site Demo](https://gumodev.github.io/productpreviewcardcomponent/)
 
 ### Built with
 
