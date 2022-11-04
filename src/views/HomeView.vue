@@ -5,14 +5,21 @@ let message = ref('Happy Coding !!!')
 </script>
 
 <template>
-  <section class="flex flex-col justify-center items-center bg-[hsl(30,38%,92%)] text-white h-screen">
+  <main class="flex flex-col justify-center items-center bg-[hsl(30,38%,92%)] text-white h-screen">
     
     <div class="transition card-preview bg-white text-black w-11/12 max-w-[375px] md:w-11/12 md:max-w-[768px] md:h-[528px] rounded-xl overflow-hidden md:flex">
       
       <div class="card-img md:w-1/2">
-        <img class="md:hidden" src="../assets/image-product-mobile.jpg" alt="">
-        <img class="hidden md:flex w-full " src="../assets/image-product-desktop.jpg" alt="">
+
+        <div>
+          <img class="md:hidden" src="../assets/image-product-mobile.jpg" alt="">
+        </div>
+        <div>
+          <img class="hidden md:flex w-full " src="../assets/image-product-desktop.jpg" alt="">
+        </div>  
+        
       </div>
+
       <div class="card-info p-8 md:w-1/2 md:p-10">
         <span class="text-[hsl(228,12%,48%)] font-[Montserrat] flex my-1 uppercase tracking-[.3rem] text-sm md:text-lg">
           Perfume
@@ -51,7 +58,7 @@ let message = ref('Happy Coding !!!')
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/GumoDev/productpreviewcardcomponent">GumoDev</a>.
     </div>
-  </section>
+  </main>
 </template>
 
 <style>
