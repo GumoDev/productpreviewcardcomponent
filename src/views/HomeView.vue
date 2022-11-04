@@ -9,7 +9,7 @@ let message = ref('Happy Coding !!!')
     
     <section class="transition card-preview bg-white text-black w-11/12 max-w-[375px] md:w-11/12 md:max-w-[768px] md:h-[528px] rounded-xl overflow-hidden md:flex">
       
-      <div class="card-img md:w-1/2">
+      <header class="card-img md:w-1/2">
 
         <div>
           <img class="md:hidden" src="../assets/image-product-mobile.jpg" alt="">
@@ -18,9 +18,9 @@ let message = ref('Happy Coding !!!')
           <img class="hidden md:flex w-full " src="../assets/image-product-desktop.jpg" alt="">
         </div>  
 
-      </div>
+      </header>
 
-      <div class="card-info p-8 md:w-1/2 md:p-10">
+      <section class="card-info p-8 md:w-1/2 md:p-10">
         <span class="text-[hsl(228,12%,48%)] font-[Montserrat] flex my-1 uppercase tracking-[.3rem] text-sm md:text-lg">
           Perfume
         </span>
@@ -50,7 +50,7 @@ let message = ref('Happy Coding !!!')
             Add to  Cart
           </span>
         </a>
-      </div>
+      </section>
 
     </section>
 
